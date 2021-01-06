@@ -19,7 +19,6 @@
             Postal Code: <input type="text" name="postalcode"/><br/>
             Contact Number: <input type="text" name="contactno"/><br/>
             Email Address: <input type="email" name="email"/><br/>
-            Password: <input type="password" name="password"/><br/>
             <input type="submit" value="Submit"/>
         </form>
         <a href="login.jsp">Done Registering?Log in now!</a><br/>

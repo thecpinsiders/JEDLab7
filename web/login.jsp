@@ -13,7 +13,6 @@
         <br>
         <form name="user" action="" method="post" onsubmit="">
             Email Address: <input type="email" name="email" required/><br/>
-            Password: <input type="password" name="password" required/><br/>
             <input type="submit" value="Login"/>
             <br/>
         </form>
