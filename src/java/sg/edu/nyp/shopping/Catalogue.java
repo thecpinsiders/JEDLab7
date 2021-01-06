@@ -6,10 +6,13 @@
 
 package sg.edu.nyp.shopping;
 
+import javax.ejb.Stateless;
+
 /**
  *
  * @author Chrystal Lim
  */
+@Stateless
 public class Catalogue {
     public int itemId;
     public int categoryId;
