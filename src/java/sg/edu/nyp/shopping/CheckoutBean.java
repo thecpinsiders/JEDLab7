@@ -13,14 +13,13 @@ import javax.ejb.Stateless;
  */
 @Stateless
 public class CheckoutBean {
-    public double computePrice(String weight, String height) {
+    public double computePrice(String quantity, String price) {
 
-        int nHeight = Integer.parseInt(height);
-        double dWeight = Double.parseDouble(weight);
+        int q = Integer.parseInt(quantity);
+        double p = Double.parseDouble(price);
 
-        double bmi = (10000 / ((double) nHeight * (double) nHeight)) * dWeight;
-
-        //return Double.toString(bmi);
-        return bmi;
+        double total = q * p;
+        
+        return total;
     }
 }
