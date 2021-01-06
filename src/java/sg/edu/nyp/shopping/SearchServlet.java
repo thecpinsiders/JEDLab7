@@ -6,10 +6,14 @@
 
 package sg.edu.nyp.shopping;
 
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
 /**
  *
  * @author Chrystal Lim
  */
-public class SearchServlet {
+@WebServlet("/catalouge")
+public class SearchServlet extends HttpServlet{
     
 }
