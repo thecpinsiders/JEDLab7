@@ -16,5 +16,6 @@
         <b><%=session.getAttribute("customerid")%></b><br/>
         <b><%=session.getAttribute("itemid")%></b><br/>
         <b><%=session.getAttribute("quantity")%></b><br/>
+        <b><%=session.getAttribute("totalprice")%></b><br/>
     </body>
 </html>
